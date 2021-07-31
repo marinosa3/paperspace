@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Docker
-    runs-on: ubuntu-18.04
+    runs-on: self-hosted
     strategy:
       max-parallel: 20
       fail-fast: false
@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: runner_go
       run: |
-        echo "hello"
+        echo "abc"
