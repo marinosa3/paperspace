@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Docker
-    runs-on: nvidia-V100
+    runs-on: self-hosted
     strategy:
       max-parallel: 20
       fail-fast: false
